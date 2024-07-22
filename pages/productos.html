@@ -10,20 +10,41 @@
 <body>
     <header>
         <h1>Trending Shop</h1>
-    <nav>
-    <!--LISTAS DESORDENADAS-->
-    
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./productos.html">Productos</a></li>
-            <li><a href="./tendencias.html">Tendencias</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="./login.html">Login</a></li>
-        </ul>    
-            
-    
-    <!--Listas Ordenadas-->
-    </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../pages/tendencias.html">Tendencias</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../pages/login.html">Login</a></li>
+                        <li><a class="dropdown-item" href="../pages/contacto.html">Contacto</a></li>
+                        
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+            </div>
+        </nav>
 </header>  
 <main>
     <section class="productos">

@@ -33,25 +33,13 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 1;
+    height: 80px;
 }
     
 
-header nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-size: 17px;
-    font: weight 500px;;
-    font-family: "Teko", sans-serif
-}
-header nav ul li{
-    display: inline-block;
-    margin: 5px 10px 5px 10px; 
-    
-}
-header nav ul{
-    list-style: none;
-    display: flex;
-}
+
+
+
 /*------MAIN-------*/
 .hero{
     width: 100%;
@@ -154,7 +142,7 @@ header nav ul{
 .tendencias { width: 100%;
     height:calc(100vh - 204);
     text-align: center;
-    background-image: url(../img/pixlr-image-generator-666c9dd7b922b28567d12b9c.png);
+    background-image: url(../img/fondo);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,9 +183,8 @@ header nav ul{
     color: black;
     background-color: white;
 }
-.carouselExample{
-    margin-top: 500px;
-}
+
+
 /*-----FOOTER------*/
 footer img{ 
     width: 50px;
